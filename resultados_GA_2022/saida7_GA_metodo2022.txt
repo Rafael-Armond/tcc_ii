@@ -1,0 +1,4 @@
+=== MELHOR INDIVÍDUO ===
+params   : [0.005420001, 1.027, 26, 1.091]
+fitness  : 0.5143
+metrics  : {'TP': 14, 'TN': 10, 'FP': 6, 'FN': 2, 'accuracy': 0.75, 'tmean_cycles': 69.35714285714286, 'repeats': 2, 'mean_cost': 0.9444357142857143, 'fitness': 0.5142880233339823}
