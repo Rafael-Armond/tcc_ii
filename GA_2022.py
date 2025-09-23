@@ -266,38 +266,6 @@ def evaluate_params_2022_on_dataset(
     }
 
 
-def samples_per_cycle_from_time(sig: Dict[str, Any], default_f0: float = 60.0) -> int:
-    """
-    Calcula de forma robusta o número de amostras por ciclo a partir do vetor 'time'.
-    Fallback: se 'time' faltar, tenta fs/f0; último fallback: 128.
-    """
-    # import numpy as _np
-    # f0 = float(sig.get("f0", default_f0))
-    # t = sig.get("time", None)
-    return 128
-
-
-"""
-    # 1) Preferir o passo mediano do vetor de tempo (robusto a outliers)
-    if t is not None:
-        arr_t = _np.asarray(t, dtype=float).reshape(-1)
-        if arr_t.size >= 3:
-            dt = float(_np.median(_np.diff(arr_t)))
-            if dt > 0:
-                fs_est = 1.0 / dt
-                one_cycle = int(round(fs_est / f0))
-                if one_cycle > 0:
-                    return one_cycle  # << nos seus arquivos deve dar 128
-
-    # 2) Fallback: metadados
-    fs_meta = float(sig.get("fs", 0.0))
-    if fs_meta > 0 and f0 > 0:
-        oc = int(round(fs_meta / f0))
-        if oc > 0:
-            return oc
-"""
-
-
 # ===============================
 # FITNESS para o GA (método 2022)
 # ===============================
