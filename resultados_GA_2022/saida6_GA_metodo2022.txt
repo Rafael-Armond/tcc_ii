@@ -1,0 +1,18 @@
+=== MELHOR INDIVÍDUO ===
+params   : [5e-06, 1.01, 30, 1.05]
+fitness  : 0.504
+metrics  : {'TP': 17, 'TN': 13, 'FP': 7, 'FN': 3, 'accuracy': 0.75, 'tmean_cycles': 89.58823529411765, 'repeats': 2, 'mean_cost': 0.9840742857142857, 'fitness': 0.504013386595548}
+
+saída 7
+=== MELHOR INDIVÍDUO ===
+params   : [0.003765718335758652, 1.0252561383191456, 30, 1.05]
+fitness  : 0.54
+metrics  : {'TP': 15, 'TN': 9, 'FP': 7, 'FN': 1, 'accuracy': 0.75, 'tmean_cycles': 83.06666666666666, 'repeats': 2, 'mean_cost': 0.851967857142857, 'fitness': 0.539966174976039}
+
+
+saída 8
+=== MELHOR INDIVÍDUO ===
+params   : [0.005419895645744238, 1.027009354023173, 14, 2.346523695295838]
+fitness  : 0.5684
+metrics  : {'TP': 14, 'TN': 12, 'FP': 4, 'FN': 2, 'accuracy': 0.8125, 'tmean_cycles': 93.07142857142857, 'repeats': 2, 'mean_cost': 0.759307142857143, 'fitness': 0.5684055817428126}
+
