@@ -19,7 +19,7 @@ from GA_2022 import (
 
 
 def _project_bounds(x: List[float]) -> List[float]:
-    """Projeção nos limites e tratamento do gene inteiro (beta = idx 2)."""
+    """Projeção nos limites e tratamento do gene inteiro."""
     out = []
     for i, val in enumerate(x):
         out.append(clamp_gene(i, val))
